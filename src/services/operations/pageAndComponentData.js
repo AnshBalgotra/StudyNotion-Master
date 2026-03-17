@@ -1,4 +1,4 @@
-import {toast} from "react-hot-toast"
+// import {toast} from "react-hot-toast"
 import { setProgress } from "../../slices/loadingBarSlice";
 import { apiConnector } from '../apiConnector';
 import { catalogData } from '../apis';
