@@ -45,6 +45,7 @@ const CourseDetails = () => {
             setCourseDetail(response);
         }
         getCourseDetails();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [courseId]);
 
     useEffect(() => {

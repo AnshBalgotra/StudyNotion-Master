@@ -22,6 +22,7 @@ const NavBar = ({ setProgress }) => {
     const { user } = useSelector(state => state.profile);
     const { totalItems } = useSelector(state => state.cart);
     const [prevScrollPos, setPrevScrollPos] = useState(0);
+    // eslint-disable-next-line no-unused-vars
     const [visible, setVisible] = useState(true)
     const [searchValue, setSearchValue] = useState("")
     const navigate = useNavigate();

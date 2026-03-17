@@ -34,6 +34,7 @@ const Catalog = () => {
 }
 useEffect(() => {
     fetchSublinks();
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, [Catalog])
 
 useEffect(() => {
@@ -47,6 +48,7 @@ useEffect(() => {
     if (categoryID) {
         fetchCatalogPageData();
     }
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, [categoryID])
 
 

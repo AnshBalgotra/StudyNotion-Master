@@ -28,6 +28,7 @@ const InstructorDashboard = () => {
             console.log("courses",instructorCourses);
             setDetails(instructorDetails);
         })();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const totalEarnings = details?.reduce((acc, course) => {
